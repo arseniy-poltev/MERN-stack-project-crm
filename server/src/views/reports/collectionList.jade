@@ -1,0 +1,8 @@
+extends ../layout
+block content
+  h1 Collection List
+  ul
+    each val in values
+      li #{val.name} (#{val.count})
+      
+

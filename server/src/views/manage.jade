@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1 Management Console
+  ul.actions
+    form(action='manage/dropCollections', method='post')
+      li Drop Collections
+        button Execute
+    form(action='manage/import', method='post')
+      li Import Data from Prelude
+        button Execute
+    form(action='manage/createJobCandidatesCollection', method='post')
+      li Create Job Candidates Collection
+        button Execute
+
+  h1 Reports
+  ul.actions
+    li
+      a(href="manage/report/collectionList") Collections
+    li
+      a(href="manage/report/preludeEntityTypes") Prelude Entity Types

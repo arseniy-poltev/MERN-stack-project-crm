@@ -1,0 +1,121 @@
+// Here you can add other styles
+.react-bs-table table tr, .pointer {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+div.horizontal-container {
+  overflow-x: auto;
+}
+
+.available-cell {
+  background-color: $success;
+}
+
+.available-alt-cell {
+  background-color: $primary;
+}
+
+.profile-hr {
+  background-color: white
+}
+
+ul.artifacts-list {
+  padding-inline-start: 0;
+  margin-block-end: 0;
+}
+
+ul.artifacts-list > li {
+  list-style: none;
+  list-style-type: none;
+  margin-bottom: 3px;
+}
+
+ul.artifacts-list > li:hover {
+  opacity: .8;
+}
+
+ul.artifacts-list > li > a:hover {
+  text-decoration: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.popover-body {
+  background-color: $dark;
+}
+
+.pagination {
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.page-link {
+  width: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+
+input[type=number]::-webkit-outer-spin-button { 
+
+  -webkit-appearance: none; 
+
+  margin: 0; 
+
+}
+
+.employmentEligibilityTable {
+  min-width: 1100px;
+}
+
+.min-w-400 {
+  min-width: 400px;
+}
+
+.min-w-300 {
+  min-width: 300px;
+}
+
+.min-w-200 {
+  min-width: 200px;
+}
+
+.min-w-100 {
+  min-width: 100px;
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.table-schedule {
+  min-width: 1000px;
+}
+
+.table-schedule td {
+  cursor: pointer;
+}
+
+.table-schedule td:hover {
+  background-color: $dark;
+}
+
+.job-candidate-process-list div {
+  margin-top: 10px
+}
+
+.job-candidate-process-list div, .job-candidate-process-list i, .job-candidate-process-list span {
+  padding-left: 1em;
+}
